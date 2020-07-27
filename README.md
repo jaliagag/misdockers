@@ -7,7 +7,7 @@ Comandos:
 - docker exec -it `<pod id>` : ejecutar un comando dentro de un pod que ya está corriendo
 - docker run: ejecuta un contenedor nuevo
 - docker pull `<image>` : `docker pull ubuntu`
-- docker run -it `<image>` : `docker run ubuntu`
+- docker run -it `<image>` : `docker run -it ubuntu`
 - docker ps -a : mostrar pods anteriores
 - docker commit `<pod id>` `<name>`:`<version>`
 - docker run `<image>`:`<version>` `<command>` `<arguments>`
